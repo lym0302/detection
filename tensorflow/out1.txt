@@ -1,0 +1,32 @@
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.154s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output' test9_standard.wav --verbose
+2018-04-25 03:13:31.342858: E tensorflow/examples/speech_commands/test_streaming_accuracy.cc:187] Unknown argument test9_standard.wav
+usage: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/execroot/org_tensorflow/bazel-out/k8-opt/bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+Flags:
+	--wav=""                         	string	audio file to be identified
+	--graph=""                       	string	model to be executed
+	--labels=""                      	string	path to file containing labels
+	--input_data_name="decoded_sample_data:0"	string	name of input data node in model
+	--input_rate_name="decoded_sample_data:1"	string	name of input sample rate node in model
+	--output_name="labels_softmax"   	string	name of output node in model
+	--clip_duration_ms=1000          	int32	length of recognition window
+	--average_window_ms=500          	int32	length of window to smooth results over
+	--time_tolerance_ms=750          	int32	maximum gap allowed between a recognition and ground truth
+	--suppression_ms=1500            	int32	how long to ignore others for after a recognition
+	--clip_stride_ms=30              	int32	how often to run recognition
+	--detection_threshold=0.700000   	float	what score is required to trigger detection of a word
+	--verbose=false                  	bool	whether to log extra debugging information
+
+[31m[1mERROR: [0mNon-zero return code '255' from command: Process exited with status 255

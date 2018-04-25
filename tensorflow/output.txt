@@ -1,0 +1,332 @@
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (1 packages loaded).
+INFO: Found 1 target...
+[0 / 5] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.465s, Critical Path: 0.01s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/tmp/speech_commands_train/test1_standard.wav' --verbose
+2018-04-18 08:26:14.949543: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 08:26:20.419035: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 30450ms: _unknown7_: 0.716338
+2018-04-18 08:26:21.522617: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 36780ms: cry: 0.706453
+2018-04-18 08:26:26.779976: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 66600ms: _unknown1_: 0.712516
+2018-04-18 08:26:27.048350: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 68130ms: cry: 0.869957
+2018-04-18 08:26:29.019679: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 79290ms: _unknown7_: 0.722198
+2018-04-18 08:26:29.418625: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 81570ms: cry: 0.712485
+2018-04-18 08:26:32.458139: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 98970ms: _unknown7_: 0.73179
+2018-04-18 08:26:32.750488: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 100620ms: _unknowna_: 0.727871
+2018-04-18 08:26:33.048101: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 102300ms: _unknown7_: 0.714213
+2018-04-18 08:26:33.571692: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 105270ms: _unknown1_: 0.729059
+2018-04-18 08:26:34.971744: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 113310ms: _unknown5_: 0.711681
+2018-04-18 08:26:35.238169: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 114840ms: _unknown7_: 0.798602
+2018-04-18 08:26:35.549207: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 116610ms: _unknown1_: 0.734609
+2018-04-18 08:26:36.071045: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 119580ms: _unknowna_: 0.700785
+2018-04-18 08:26:36.765014: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 123510ms: _unknown7_: 0.708609
+2018-04-18 08:26:37.875605: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 129810ms: cry: 0.710443
+2018-04-18 08:26:39.726472: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 140370ms: _unknowna_: 0.713064
+2018-04-18 08:26:40.023664: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 142080ms: _unknown1_: 0.719819
+2018-04-18 08:26:41.041535: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 147900ms: _unknown7_: 0.715819
+2018-04-18 08:26:43.328303: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 160860ms: _unknown7_: 0.714794
+2018-04-18 08:26:44.658486: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 168480ms: cry: 0.700486
+2018-04-18 08:26:46.217737: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 177390ms: _unknown5_: 0.712106
+2018-04-18 08:26:47.087103: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 182370ms: _unknown6_: 0.70998
+2018-04-18 08:26:47.356987: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 183900ms: _unknown7_: 0.705087
+2018-04-18 08:26:47.625079: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 185430ms: _unknown1_: 0.898845
+2018-04-18 08:26:48.265594: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 189000ms: _unknown7_: 0.710074
+2018-04-18 08:26:49.925809: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 198450ms: _unknown1_: 0.728271
+2018-04-18 08:26:51.605766: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 208080ms: _unknown6_: 0.72869
+2018-04-18 08:26:52.137699: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 211080ms: _unknown7_: 0.717278
+2018-04-18 08:26:53.013606: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 216030ms: _unknown8_: 0.709085
+2018-04-18 08:26:53.283352: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 217560ms: _unknown6_: 0.710792
+2018-04-18 08:26:53.612374: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 219450ms: _unknown1_: 0.71763
+2018-04-18 08:26:56.467987: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 235800ms: _unknown8_: 0.711049
+2018-04-18 08:26:56.884513: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 238170ms: _unknown1_: 0.700992
+2018-04-18 08:26:58.168719: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 245400ms: _unknownb_: 0.739417
+2018-04-18 08:26:59.018904: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 250260ms: _unknowna_: 0.70137
+2018-04-18 08:26:59.958106: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 255630ms: _unknown1_: 0.721227
+2018-04-18 08:27:00.243948: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 257250ms: _unknown6_: 0.706044
+2018-04-18 08:27:01.165355: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 262530ms: _unknown1_: 0.722457
+2018-04-18 08:27:01.444151: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 264060ms: _unknown7_: 0.938224
+2018-04-18 08:27:03.243617: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 274260ms: _unknown7_: 0.72986
+2018-04-18 08:27:03.583357: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 276210ms: _unknown6_: 0.73175
+2018-04-18 08:27:04.008112: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 278640ms: _unknown1_: 0.750606
+2018-04-18 08:27:04.749184: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 282900ms: _unknown5_: 0.714373
+2018-04-18 08:27:06.224331: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 291360ms: _unknown1_: 0.711926
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.277s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test2_standard.wav' --verbose
+2018-04-18 09:10:04.910723: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:10:04.987994: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 150ms: cry: 0.76882
+2018-04-18 09:10:05.717417: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 4170ms: _unknown1_: 0.706475
+2018-04-18 09:10:07.022099: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 11610ms: cry: 0.722752
+2018-04-18 09:10:07.339300: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 13410ms: _unknown1_: 0.700117
+2018-04-18 09:10:09.003332: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 22830ms: cry: 0.750373
+2018-04-18 09:10:09.659916: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 26580ms: _unknown1_: 0.70458
+2018-04-18 09:10:09.926325: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 28110ms: cry: 0.999332
+2018-04-18 09:10:10.590120: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 31890ms: _unknown1_: 0.713137
+2018-04-18 09:10:10.856883: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 33420ms: cry: 0.711003
+2018-04-18 09:10:11.880589: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 39240ms: _unknown1_: 0.718874
+2018-04-18 09:10:12.441776: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 42450ms: cry: 0.724821
+2018-04-18 09:10:14.578915: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 54570ms: _unknown1_: 0.709416
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.275s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test3_standard.wav' --verbose
+2018-04-18 09:12:54.695259: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:12:55.053726: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 1620ms: cry: 0.721849
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.278s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test4_standard.wav' --verbose
+2018-04-18 09:22:26.130030: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:22:50.181468: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 136980ms: cry: 0.747639
+2018-04-18 09:22:51.403450: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 143970ms: _unknown1_: 0.72933
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.268s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test5_standard.wav' --verbose
+2018-04-18 09:27:22.679588: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:27:23.755602: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 5610ms: cry: 0.720677
+2018-04-18 09:27:24.174374: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 8010ms: _unknown1_: 0.700457
+2018-04-18 09:27:24.621149: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 10560ms: cry: 0.715015
+2018-04-18 09:27:26.594205: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 21840ms: _unknown1_: 0.706723
+2018-04-18 09:27:28.510437: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 32700ms: cry: 0.719522
+2018-04-18 09:27:29.399491: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 37770ms: _unknown7_: 0.751432
+2018-04-18 09:27:29.949966: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 40920ms: cry: 0.734924
+2018-04-18 09:27:30.614197: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 44730ms: _unknown1_: 0.722203
+2018-04-18 09:27:31.251987: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 48360ms: cry: 0.738064
+2018-04-18 09:27:31.520356: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 49890ms: _unknown1_: 0.704844
+2018-04-18 09:27:31.793925: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 51420ms: cry: 0.988256
+2018-04-18 09:27:32.078593: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 53040ms: _unknown1_: 0.701802
+2018-04-18 09:27:32.958473: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 57990ms: _unknown7_: 0.702184
+2018-04-18 09:27:33.248251: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 59640ms: _unknown1_: 0.729492
+2018-04-18 09:27:33.807650: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 62820ms: cry: 0.751414
+2018-04-18 09:27:34.325679: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 65760ms: _unknown1_: 0.703192
+2018-04-18 09:27:34.780716: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 68370ms: cry: 0.722912
+2018-04-18 09:27:38.254400: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 88020ms: _unknown1_: 0.714272
+2018-04-18 09:27:38.732921: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 90750ms: cry: 0.732801
+2018-04-18 09:27:39.808148: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 96900ms: _unknown1_: 0.710434
+2018-04-18 09:27:40.079878: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 98430ms: cry: 0.996477
+2018-04-18 09:27:40.989230: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 103650ms: _unknown1_: 0.702398
+2018-04-18 09:27:41.420261: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 106080ms: cry: 0.727224
+2018-04-18 09:27:42.000693: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 109380ms: _unknown1_: 0.745419
+2018-04-18 09:27:42.813585: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 114000ms: cry: 0.717437
+2018-04-18 09:27:45.905447: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 131610ms: _unknown1_: 0.724824
+2018-04-18 09:27:46.236416: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 133500ms: cry: 0.71557
+2018-04-18 09:27:46.983333: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 137760ms: _unknown1_: 0.72927
+2018-04-18 09:27:47.563606: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 141030ms: cry: 0.72962
+2018-04-18 09:27:48.555361: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 146610ms: _unknown1_: 0.715305
+2018-04-18 09:27:48.984711: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 149070ms: cry: 0.70832
+2018-04-18 09:27:49.672795: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 153000ms: _unknown6_: 0.716412
+2018-04-18 09:27:49.939832: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 154530ms: _unknown1_: 0.724639
+2018-04-18 09:27:50.206522: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 156060ms: cry: 0.853825
+2018-04-18 09:27:50.525062: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 157860ms: _unknown1_: 0.703137
+2018-04-18 09:27:50.791677: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 159390ms: cry: 0.729924
+2018-04-18 09:27:51.409605: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 162900ms: _unknown1_: 0.702
+2018-04-18 09:27:52.751928: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 170400ms: cry: 0.726665
+2018-04-18 09:27:54.074348: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 177900ms: _unknown1_: 0.701457
+2018-04-18 09:27:55.085981: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 183690ms: cry: 0.71676
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.270s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test6_standard.wav' --verbose
+2018-04-18 09:33:57.753236: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:33:58.796263: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 5520ms: cry: 0.715842
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.242s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test7_standard.wav' --verbose
+2018-04-18 09:34:42.490465: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:34:42.564772: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 150ms: cry: 0.77207
+2018-04-18 09:34:43.022250: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 2670ms: _unknown1_: 0.700611
+2018-04-18 09:34:43.292627: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 4200ms: cry: 0.997988
+2018-04-18 09:34:45.130086: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 14700ms: _unknown7_: 0.701236
+2018-04-18 09:34:45.574488: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 17250ms: cry: 0.724542
+2018-04-18 09:34:46.268201: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 21210ms: _unknown1_: 0.72251
+2018-04-18 09:34:46.535854: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 22740ms: cry: 0.96898
+2018-04-18 09:34:46.806480: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 24270ms: _unknownb_: 0.710669
+2018-04-18 09:34:47.102525: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 25950ms: _unknown1_: 0.702518
+2018-04-18 09:34:47.458721: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 27960ms: cry: 0.711844
+2018-04-18 09:34:47.949923: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 30750ms: _unknown1_: 0.715681
+2018-04-18 09:34:48.394984: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 33210ms: cry: 0.743106
+2018-04-18 09:34:48.914100: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 36180ms: _unknown7_: 0.710068
+2018-04-18 09:34:49.185003: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 37710ms: _unknown1_: 0.820771
+2018-04-18 09:34:49.524616: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 39660ms: cry: 0.70322
+2018-04-18 09:34:50.425749: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 44820ms: _unknown7_: 0.700506
+2018-04-18 09:34:50.692344: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 46350ms: cry: 0.916343
+2018-04-18 09:34:51.026292: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 48270ms: _unknown7_: 0.70895
+2018-04-18 09:34:51.313473: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 49890ms: cry: 0.704273
+2018-04-18 09:34:51.602211: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 51540ms: _unknown1_: 0.73691
+2018-04-18 09:34:52.005300: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 53850ms: _unknown7_: 0.726356
+2018-04-18 09:34:53.024614: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 59640ms: cry: 0.711867
+2018-04-18 09:34:55.933965: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 76230ms: _unknown1_: 0.706101
+2018-04-18 09:34:56.432346: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 79020ms: cry: 0.703357
+2018-04-18 09:34:56.976243: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 82110ms: _unknown1_: 0.721085
+2018-04-18 09:34:58.179300: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 88890ms: cry: 0.739044
+2018-04-18 09:34:58.460088: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 90450ms: _unknown1_: 0.709625
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.243s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test8_standard.wav' --verbose
+2018-04-18 09:35:18.122641: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:35:18.186445: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 150ms: _unknown4_: 0.965777
+2018-04-18 09:35:18.461730: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 1680ms: cry: 0.974393
+2018-04-18 09:35:19.134180: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 5520ms: _unknown4_: 0.700457
+2018-04-18 09:35:19.583663: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 8100ms: _unknowna_: 0.706899
+2018-04-18 09:35:19.912844: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 9990ms: _unknown4_: 0.703442
+2018-04-18 09:35:21.343677: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 18150ms: cry: 0.746184
+2018-04-18 09:35:21.632020: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 19770ms: _unknown4_: 0.732588
+2018-04-18 09:35:21.899640: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 21300ms: cry: 0.999879
+2018-04-18 09:35:22.323339: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 23700ms: _unknown6_: 0.731547
+2018-04-18 09:35:22.598688: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 25230ms: cry: 0.812921
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.231s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test9_standard.wav' --verbose
+2018-04-18 09:35:36.974713: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:35:37.057698: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 150ms: cry: 0.934908
+2018-04-18 09:35:57.898899: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 118470ms: _unknown1_: 0.707571
+2018-04-18 09:35:58.757043: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 123300ms: cry: 0.700058
+2018-04-18 09:36:17.816033: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 231510ms: _unknown1_: 0.712226
+2018-04-18 09:36:18.493798: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 235350ms: cry: 0.701569
+2018-04-18 09:36:21.188881: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 250740ms: _unknown1_: 0.700925
+2018-04-18 09:36:22.308612: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 257100ms: _unknown4_: 0.708435
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE:1: Workspace name in /root/.cache/bazel/_bazel_root/abcb5ecc818e7d7f5003e80ace7f3ad1/external/protobuf_archive/WORKSPACE (@com_google_protobuf) does not match the name given in the repository's definition (@protobuf_archive); this will cause a build error in future versions
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+WARNING: /root/test/tensorflow/tensorflow/core/BUILD:1929:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/test/tensorflow/tensorflow/tensorflow.bzl:1179:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] [-----] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.276s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/speech_commands_train_20180321-161243.pb' '--labels=/tmp/speech_commands_train/conv_labels1.txt' '--wav=/root/test/format_convert/output/test10_standard.wav' --verbose
+2018-04-18 09:36:42.515021: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-04-18 09:36:43.537988: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 4860ms: _unknown1_: 0.70649
+2018-04-18 09:36:43.807349: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 6390ms: cry: 0.712479
+2018-04-18 09:36:47.433297: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 27060ms: _unknown1_: 0.715643
+2018-04-18 09:36:48.504109: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 33090ms: cry: 0.708471
+2018-04-18 09:36:50.594032: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 45090ms: _unknown1_: 0.70189
+2018-04-18 09:36:50.961196: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 47190ms: cry: 0.720618
+2018-04-18 09:37:00.442784: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 101100ms: _unknown1_: 0.713889
+2018-04-18 09:37:01.903253: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 109350ms: cry: 0.700837
+2018-04-18 09:37:17.141165: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 195960ms: _unknownb_: 0.701675
+2018-04-18 09:37:17.429256: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 197610ms: _unknown6_: 0.707042
+2018-04-18 09:37:17.706014: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 199140ms: cry: 0.998546
+2018-04-18 09:37:31.529502: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 277890ms: _unknown7_: 0.702787
+2018-04-18 09:37:33.463093: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 288780ms: cry: 0.702166
+2018-04-18 09:37:58.284581: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 430080ms: _unknown1_: 0.722383
+2018-04-18 09:37:58.791331: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 432960ms: _unknown8_: 0.736337
+2018-04-18 09:37:59.407459: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 436470ms: _unknown1_: 0.703949
+2018-04-18 09:38:01.999142: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 451170ms: _unknown4_: 0.712647
+2018-04-18 09:38:02.705588: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 455040ms: cry: 0.727172
+2018-04-18 09:38:07.231003: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 480720ms: _unknown1_: 0.72707
+2018-04-18 09:38:08.686384: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 488940ms: cry: 0.704247
+2018-04-18 09:38:10.157008: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 497340ms: _unknown4_: 0.704164
+2018-04-18 09:38:13.531866: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 516540ms: _unknown1_: 0.700949
+2018-04-18 09:38:14.225532: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 520500ms: _unknown4_: 0.706916
+2018-04-18 09:38:14.952406: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 524670ms: cry: 0.707679
+2018-04-18 09:38:17.954124: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 541770ms: _unknown1_: 0.712189
+2018-04-18 09:38:19.545561: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 550830ms: cry: 0.702368
+2018-04-18 09:38:20.201984: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 554580ms: _unknownb_: 0.704297
+2018-04-18 09:38:20.734822: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 557640ms: cry: 0.701135
+2018-04-18 09:38:46.446306: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 703950ms: _unknown1_: 0.706428
+2018-04-18 09:38:47.856201: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 711870ms: cry: 0.700764
+2018-04-18 09:38:53.029566: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 741330ms: _unknown1_: 0.70274
+2018-04-18 09:39:00.658733: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 784830ms: cry: 0.700914
+2018-04-18 09:39:14.435209: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 862830ms: _unknown1_: 0.702515
+2018-04-18 09:39:14.942552: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 865710ms: _unknown6_: 0.702628
+2018-04-18 09:39:15.376418: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 868200ms: _unknowna_: 0.722131
+2018-04-18 09:39:19.914973: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 893910ms: _unknown1_: 0.717491
+2018-04-18 09:39:20.223382: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:308] 895680ms: _unknowna_: 0.701644

@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Bazel Authors
+Label: Bazel
+Codename: stable
+Date: Fri, 23 Feb 2018 16:24:07 UTC
+Architectures: amd64
+Components: jdk1.8
+Description: Bazel APT Repository
+MD5Sum:
+ 27abbb6e9a6a23c44a3a7ccd323d18c4 884 jdk1.8/binary-amd64/Packages
+ 8763767360e5b595a882e6324a4b244f 600 jdk1.8/binary-amd64/Packages.gz
+ 65914fa446cb900d6ec80d4d874ca269 107 jdk1.8/binary-amd64/Release
+ 93a7f4a0f478d20508ca2033a171a696 800 jdk1.8/source/Sources
+ 27645f02dca47fef713f2d9087ad59dd 484 jdk1.8/source/Sources.gz
+ 5d382ee367f605efe7cd575173ec3e42 108 jdk1.8/source/Release
+SHA1:
+ e35753929cc0bda3ca3b602672455955fc285df8 884 jdk1.8/binary-amd64/Packages
+ c65baea7e3ed915794428672816def4d9a2a29fb 600 jdk1.8/binary-amd64/Packages.gz
+ 2fd7478dde112e712451130e5523380035aba9aa 107 jdk1.8/binary-amd64/Release
+ 11facbd7a54608f5c8868f18e9d72edf5e44c045 800 jdk1.8/source/Sources
+ 190977b5f8d8913bd3d20ef9887262cc3f0b90d0 484 jdk1.8/source/Sources.gz
+ c8e6785823f8d1b29c67e7510878e11b2bcfffeb 108 jdk1.8/source/Release
+SHA256:
+ 9388253647e3e614884666d7e75e7c34a5eac1df7afe7eb4dbb547733f49bc6a 884 jdk1.8/binary-amd64/Packages
+ c33a9c3f0df4e046937ccb21f8c217f4a32b403bed2ac46eb21ae782d99eef03 600 jdk1.8/binary-amd64/Packages.gz
+ 7097d90c6b91d32fa1e16a354f73e3ad49c650d78497faf660dd7812f14ca76e 107 jdk1.8/binary-amd64/Release
+ 74d490034d785b04badb0941be59ccf2bb7a6826bc0864c1056def51e8a7565a 800 jdk1.8/source/Sources
+ 46cb5f3afac3c0a87511ffc6a4730a74518f25d8f69b7ec586fb3b42d459df9a 484 jdk1.8/source/Sources.gz
+ c89f2c5ed362a65e74f45fe92f5079753ac4800305ed5b99963001dab0b6b0f1 108 jdk1.8/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJakEAnAAoJED1ZGbRIRX7gvx0QALJt9XOS9+BYBsUhtmub5l0N
+Zhs8Havo4LozNdDkTK0+Wp1K8H8lxvT3xuS6bisEP5oCzOC9YcAVwgjkNxCbuUWQ
+UdOX2XPob6U73IZ5WYmOhGdN9H5+sMFoMxFOXrlaai04ir9qmL07unleekUKv782
+IQwSFUFiDPU8seQ77LIv4QQ3GxfdwOmdeYJy2O7pUwM2AMW70GsJfEUWkUaXwD7r
+W6AxEuklhAPpSo/Z5sHnAJvHMafbwkq+3PMPSzCBrLIYj5M5DzRG/DtQoBoGozcY
+GrIzPRt3lmYbMmuZhOMjuJ7isB7WJLAlDEfHT/L5DyrxX4kpimdKuU0qTC0lMRz6
+6C6/NbRPxgoCvtvSr+6PhSbxUC9bSKiwmWtlNShfyLwGYmx3iN45K+gEwTlyTUk2
+IaRVtmm+btwSv+ISmSPU8MoDQYslD+T92crTPdRAV1+42xHH3da7iXvWLEgPN9Fy
+YNInmuZ3h3Ex2HYpXmjuZCu9XeQjnnhTE5CFKg5HbXbMybsUcs2lZeL1MkvScUUM
+0sprJVcg9MK1waqdFdw/JXVTmI7E1oSIMMEekSukEOEFDDk4ozlyPVEcAEqd0j3J
+itQPew+apOGDFl2HVmOHGzXO7EnrM21gvWH0zhzUeM1IknZF4ft2nDIC5RHZOyxI
+TOaVIBgTIi9wNdJltPyb
+=pSDX
+-----END PGP SIGNATURE-----
